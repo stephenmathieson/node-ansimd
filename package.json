@@ -1,6 +1,6 @@
 {
   "name": "ansimd",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Markdown to ANSI for your terminal",
   "keywords": [],
   "author": "Stephen Mathieson <me@stephenmathieson.com>",
