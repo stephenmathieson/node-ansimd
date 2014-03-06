@@ -1,0 +1,25 @@
+{
+  "name": "ansimd",
+  "version": "0.0.0",
+  "description": "Markdown to ANSI for your terminal",
+  "keywords": [],
+  "author": "Stephen Mathieson <me@stephenmathieson.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stephenmathieson/node-ansimd.git"
+  },
+  "dependencies": {
+    "marked": "~0.3.1",
+    "unescape-html": "~1.0.0"
+  },
+  "devDependencies": {},
+  "main": "index",
+  "bugs": {
+    "url": "https://github.com/stephenmathieson/node-ansimd/issues"
+  },
+  "homepage": "https://github.com/stephenmathieson/node-ansimd",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}
