@@ -57,7 +57,8 @@ renderer.em = function (text) {
  * Render strong text.
  */
 
-renderer.strong = function (text) {
+renderer.strong = 
+renderer.codespan = function (text) {
   return bold(text);
 };
 
@@ -96,6 +97,7 @@ renderer.paragraph = newlines;
  */
 
 renderer.image =
+renderer.hr =
 renderer.br = newline;
 
 /**
