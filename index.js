@@ -98,6 +98,7 @@ renderer.paragraph = newlines;
 
 renderer.image =
 renderer.hr =
+renderer.blockquote =
 renderer.br = newline;
 
 /**
