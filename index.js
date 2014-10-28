@@ -106,7 +106,7 @@ renderer.br = newline;
  */
 
 renderer.link = function (href, title, text) {
-  return newlines(underline(text) + ' (' + href + ')');
+  return underline(text) + ' (' + href + ')';
 };
 
 /**

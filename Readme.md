@@ -1,9 +1,8 @@
-
 # ansimd
 
   Markdown to ANSI for your terminal
 
-## Example
+## JS Usage
 
 ```js
 var fs = require('fs');
@@ -12,6 +11,15 @@ var render = require('ansimd');
 
 var str = read('./Readme.md');
 console.log(render(str));
+```
+
+## CLI usage
+
+You can also install `ansimd` using the `-g` flag and use it from the CLI directly:
+
+```
+npm install ansimd -g
+ansimd foo.md
 ```
 
 ## License 
