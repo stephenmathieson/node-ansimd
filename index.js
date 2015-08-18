@@ -27,7 +27,7 @@ function render(text) {
  * Expose our `renderer`.
  */
 
-var renderer = exports.renderer = {};
+var renderer = exports.renderer = new marked.Renderer();
 
 /**
  * Render a heading.
