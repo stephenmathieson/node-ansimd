@@ -1,6 +1,6 @@
 {
   "name": "ansimd",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Markdown to ANSI for your terminal",
   "keywords": [],
   "bin": {
