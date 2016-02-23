@@ -12,7 +12,7 @@
     "url": "git://github.com/stephenmathieson/node-ansimd.git"
   },
   "dependencies": {
-    "marked": "~0.3.1",
+    "marked": "0.3.4",
     "unescape-html": "~1.0.0"
   },
   "devDependencies": {},

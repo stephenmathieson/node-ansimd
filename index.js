@@ -30,6 +30,38 @@ function render(text) {
 var renderer = exports.renderer = {};
 
 /**
+ * Render text.
+ */
+
+renderer.text = function (text) {
+  return text;
+};
+
+/**
+ * Render tablecell.
+ */
+
+renderer.tablecell = function (text) {
+  return text;
+};
+
+/**
+ * Render tablerow.
+ */
+
+renderer.tablerow = function (text) {
+  return text;
+};
+
+/**
+ * Render table.
+ */
+
+renderer.table = function (text) {
+  return text;
+};
+
+/**
  * Render a heading.
  */
 
